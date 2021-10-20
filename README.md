@@ -12,7 +12,7 @@ Spectre Models of Skywater 130nm
 
 ## Status
 
-- tt
+- *tt*
   - [x] nfet_01v8
   - [ ] nfet_01v8_lvt
   - [ ] pfet_01v8  
@@ -26,7 +26,7 @@ Spectre Models of Skywater 130nm
   - [ ] nfet_g5v0d10v5
   - [ ] nfet_g5v0d16v0
   - [ ] esd_nfet_g5v0d10v5
-- sf
+- *sf*
   - [ ] nfet_01v8
   - [ ] nfet_01v8_lvt
   - [ ] pfet_01v8  
@@ -40,7 +40,7 @@ Spectre Models of Skywater 130nm
   - [ ] nfet_g5v0d10v5
   - [ ] nfet_g5v0d16v0
   - [ ] esd_nfet_g5v0d10v5
-- fs
+- *fs*
   - [ ] nfet_01v8
   - [ ] nfet_01v8_lvt
   - [ ] pfet_01v8  
@@ -54,7 +54,7 @@ Spectre Models of Skywater 130nm
   - [ ] nfet_g5v0d10v5
   - [ ] nfet_g5v0d16v0
   - [ ] esd_nfet_g5v0d10v5
-- ff
+- *ff*
   - [ ] nfet_01v8
   - [ ] nfet_01v8_lvt
   - [ ] pfet_01v8  
