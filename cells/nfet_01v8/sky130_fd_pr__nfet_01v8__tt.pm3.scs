@@ -18,8 +18,6 @@ parameters
 + sky130_fd_pr__nfet_01v8__vth0_slope_spectre = 0.0
 + sky130_fd_pr__nfet_01v8__voff_slope_spectre = 0.0
 
-include "./../../models/parameters/invariant.scs"
-
 statistics{
    process {
    }

@@ -12,16 +12,12 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-******* SkyWater sky130 model library *********
-
-library sky130
-* Typical corner (tt)
-section tt
-* MOSFET
-include "../cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.corner.scs"
-
-* Mismatch parameters
-include "../cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.scs"
-endsection
-
-endlibrary
+* SKY130 Spice File.
+parameters
++ sky130_fd_pr__nfet_01v8__toxe_slope=3.443e-03
++ sky130_fd_pr__nfet_01v8__lint_slope=0.0
++ sky130_fd_pr__nfet_01v8__nfactor_slope=0.0
++ sky130_fd_pr__nfet_01v8__voff_slope=0.007
++ sky130_fd_pr__nfet_01v8__vth0_slope=3.356e-03
++ sky130_fd_pr__nfet_01v8__vth0_slope1=7.356e-03
++ sky130_fd_pr__nfet_01v8__wint_slope=0
