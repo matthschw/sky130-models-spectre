@@ -19,9 +19,12 @@ library sky130
 section tt
 * MOSFET
 include "../cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.corner.scs"
-
+include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__tt.corner.scs"
+include "./corners/tt/nofet.scs"
 * Mismatch parameters
 include "../cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.scs"
+include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.scs"
+* All models
+include "all.scs"
 endsection
-
 endlibrary

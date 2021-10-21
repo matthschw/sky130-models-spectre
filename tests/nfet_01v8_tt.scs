@@ -6,7 +6,7 @@ global 0
 
 parameters L=1.65e-07 Vb=0.0 Vg=0.0 Vd=0.0 Vs=0.0 W=20e-06 Vdd=1.8
 
-include "./../models/sky130.lib.scs" section = tt
+include "./../models/sky130.scs" section = tt
 
 save  D G S B                                \
       M0.msky130_fd_pr__nfet_01v8:vds        \
