@@ -15,7 +15,7 @@ Spectre Models of Skywater 130nm
 - *tt*
   - [x] nfet_01v8
   - [ ] nfet_01v8_lvt
-  - [ ] pfet_01v8  
+  - [x] pfet_01v8  
   - [ ] nfet_03v3_nvt
   - [ ] nfet_05v0_nvt
   - [ ] esd_nfet_01v8
