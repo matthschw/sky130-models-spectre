@@ -9,6 +9,7 @@ Spectre Models of Skywater 130nm
   syntax.
 - I cannot give any guarantee that the models in this repository work as
   intended by Skywater.
+- Please add always `scale=1u` to your options statement in the netlist.
 
 ## Status
 

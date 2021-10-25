@@ -4,7 +4,7 @@
 simulator lang=spectre
 global 0
 
-parameters L=1.65e-07 Vb=0.0 Vg=0.0 Vd=0.0 Vs=0.0 W=20e-06 Vdd=1.8
+parameters L=0.18 Vb=0.0 Vg=0.0 Vd=0.0 Vs=0.0 W=20 Vdd=1.8
 
 include "./../models/sky130.scs" section = tt
 
@@ -45,9 +45,9 @@ VG (G S) vsource dc=Vg type=dc
 VS (S 0) vsource dc=Vs type=dc
 VB (B S) vsource dc=Vb type=dc
 
-simulatorOptions options save=selected rawfmt=nutbin
+simulatorOptions options save=selected rawfmt=nutbin scale=1u
 
-length sweep param=L start=1.5e-07 stop=30u dec=10 {
+length sweep param=L start=0.18 stop=30 dec=10 {
   bulk sweep param=Vb start=Vs stop=-1.0 step=-0.2 {
     drain sweep param=Vd start=Vs stop=Vdd step=0.1 {
         dc dc param=Vg start=Vs stop=Vdd step=0.1 
