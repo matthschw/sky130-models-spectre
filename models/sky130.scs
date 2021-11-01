@@ -12,7 +12,7 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-******* SkyWater sky130 model library *********
+*********************** SkyWater sky130 model library *************************
 
 library sky130
 * Typical corner (tt)
@@ -21,6 +21,17 @@ section tt
 include "../cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.corner.scs"
 include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__tt.corner.scs"
 include "./corners/tt/nofet.scs"
+* Mismatch parameters
+include "../cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.scs"
+include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.scs"
+* All models
+include "all.scs"
+endsection
+* Fast-Fast corner (ff)
+section ff
+* MOSFET
+include "../cells/nfet_01v8/sky130_fd_pr__nfet_01v8__ff.corner.scs"
+include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__ff.corner.scs"
 * Mismatch parameters
 include "../cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.scs"
 include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.scs"
