@@ -49,4 +49,15 @@ include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.scs"
 * All models
 include "all.scs"
 endsection
+* Slow-Slow corner (ss)
+section ss
+* MOSFET
+include "../cells/nfet_01v8/sky130_fd_pr__nfet_01v8__ss.corner.scs"
+include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__ss.corner.scs"
+* Mismatch parameters
+include "../cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.scs"
+include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.scs"
+* All models
+include "all.scs"
+endsection
 endlibrary
